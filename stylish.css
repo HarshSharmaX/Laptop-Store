@@ -1,0 +1,136 @@
+body{
+    background-color: #fffee6;
+}
+.buttons{
+    background-color: #c9302c;
+}
+.buton{
+    background-color: #c9302c;
+    color: #f8f8f8;
+    
+}
+.thumb{
+    width: 70%;
+    height: 10%;
+    border-radius: 100%;
+    transition: transform .2s;
+}
+.thumb:hover{
+    transform: scale(1.5); 
+    opacity: 0.7;
+}
+.thumb:active{
+    opacity: 0.7;
+}
+.dropbtn {
+  background-color: #222;
+  color: white;
+  padding-top: 6px;
+  padding-left:  70%;
+  padding-right: 70%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #c12e2a;
+}
+.thu{
+    width: 100%;
+    height: 30%;
+}
+.thumbnails{
+    width: 100%;
+    height: auto;
+}
+.back-image{
+    margin-top: 45px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(img/contactus.jpg) no-repeat center ;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+    
+}
+
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+.row-style{
+    margin-top: 10%;
+}
+.float{
+    float: left;
+}
+.success-style{
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.home-style{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.filter-style{
+    margin-bottom: 5%;
+}
+.settings-style{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.cart-style{
+    margin-top: 10%;
+    margin-bottom: 35%;
+}
+.about-style{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 16px;
+}
+.modal-style{
+    width: 100%;
+    height: auto;    
+}
+.price-style{
+    margin-top: 4%;
+}
